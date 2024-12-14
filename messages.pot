@@ -1,0 +1,214 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-14 18:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: templates/index.html:6
+msgid "Александр Войцев | Портфолио"
+msgstr ""
+
+#: templates/index.html:15
+msgid "Резюме"
+msgstr ""
+
+#: templates/index.html:23 templates/index.html:62
+msgid "Обо мне"
+msgstr ""
+
+#: templates/index.html:26 templates/index.html:78
+msgid "Образование"
+msgstr ""
+
+#: templates/index.html:29 templates/index.html:185
+msgid "Проекты"
+msgstr ""
+
+#: templates/index.html:32 templates/index.html:224
+msgid "Навыки"
+msgstr ""
+
+#: templates/index.html:63
+msgid ""
+"Меня зовут Александр, мне 19 лет. Я учусь в Высшей школе экономики "
+"(Москва) на направлении \"Прикладная математика и информатика\". "
+"Увлекаюсь аналитикой, инвестициями и экономикой. Читаю профессиональную "
+"литературу, занимаюсь спортом, а также изучаю бизнес-английский на уровне"
+" C1."
+msgstr ""
+
+#: templates/index.html:64
+msgid "Связаться со мной"
+msgstr ""
+
+#: templates/index.html:87
+msgid "Высшая школа экономики"
+msgstr ""
+
+#: templates/index.html:88
+msgid "2023–2027"
+msgstr ""
+
+#: templates/index.html:89
+msgid "Факультет компьютерных наук"
+msgstr ""
+
+#: templates/index.html:90
+msgid "Направление: \"Прикладная математика и информатика\""
+msgstr ""
+
+#: templates/index.html:103
+msgid "Достижения"
+msgstr ""
+
+#: templates/index.html:114
+msgid "Онлайн-курс \"Симулятор SQL\""
+msgstr ""
+
+#: templates/index.html:115
+msgid "Karpov Courses"
+msgstr ""
+
+#: templates/index.html:117 templates/index.html:128
+msgid "Июль 2024"
+msgstr ""
+
+#: templates/index.html:125
+msgid "Мини-курс(учебная практика) \"Введение в аналитику данных\""
+msgstr ""
+
+#: templates/index.html:126
+msgid "ФКН НИУ ВШЭ"
+msgstr ""
+
+#: templates/index.html:136
+msgid "Летняя школа по предпринимательству"
+msgstr ""
+
+#: templates/index.html:137
+msgid "ФКН НИУ ВШЭ, Яндекс"
+msgstr ""
+
+#: templates/index.html:139
+msgid "Июнь 2024"
+msgstr ""
+
+#: templates/index.html:156
+msgid "Хакатон \"Hackathon 2023 for IT School students\""
+msgstr ""
+
+#: templates/index.html:157
+msgid "Samsung IT School"
+msgstr ""
+
+#: templates/index.html:159
+msgid "Апрель 2023"
+msgstr ""
+
+#: templates/index.html:167
+msgid "Олимпиада \"Межрегиональная олимпиада школьников по математике\""
+msgstr ""
+
+#: templates/index.html:168
+msgid "Призёр третьей степени"
+msgstr ""
+
+#: templates/index.html:170
+msgid "Февраль 2023"
+msgstr ""
+
+#: templates/index.html:191
+msgid "CheckList"
+msgstr ""
+
+#: templates/index.html:192
+msgid ""
+"Андроид-приложение для распределения списка покупок с использованием "
+"моделей машинного обучения для классификации изображений."
+msgstr ""
+
+#: templates/index.html:193 templates/index.html:203
+msgid "Посмотреть на GitHub"
+msgstr ""
+
+#: templates/index.html:201
+msgid "Ecounse"
+msgstr ""
+
+#: templates/index.html:202
+msgid ""
+"Андроид-приложение, созданное для того, чтобы обучить людей финансовой "
+"грамотности"
+msgstr ""
+
+#: templates/index.html:211
+msgid "Стажка"
+msgstr ""
+
+#: templates/index.html:212
+msgid "Маркетплейс стажировок, где каждый может найти себе стажировку для души"
+msgstr ""
+
+#: templates/index.html:213
+msgid "Посмотреть проект"
+msgstr ""
+
+#: templates/index.html:230
+msgid "Языки программирования"
+msgstr ""
+
+#: templates/index.html:246
+msgid "Технологии"
+msgstr ""
+
+#: templates/index.html:259
+msgid "Языки"
+msgstr ""
+
+#: templates/index.html:261
+msgid "Русский (родной)"
+msgstr ""
+
+#: templates/index.html:262
+msgid "Английский (C1)"
+msgstr ""
+
+#: templates/index.html:274
+msgid "Сотрудничество"
+msgstr ""
+
+#: templates/index.html:275
+msgid ""
+"Если вы заинтересованы в сотрудничестве или хотите узнать больше обо мне,"
+" свяжитесь со мной через следующие каналы:"
+msgstr ""
+
+#: templates/index.html:276
+msgid "Написать в Telegram"
+msgstr ""
+
+#: templates/index.html:277
+msgid "Написать на Email"
+msgstr ""
+
+#: templates/index.html:278
+msgid "Посмотреть GitHub"
+msgstr ""
+
+#: templates/index.html:285
+msgid "Сделано с любовью в 2024 году."
+msgstr ""
+

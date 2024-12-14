@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Navigo';
+  src: url('../../../../resume/fonts/Navigo-Regular-Desktop.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../../../resume/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Переменные для светлой и тёмной тем */
+body.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --navbar-bg: #f8f9fa;
+    --navbar-text: #000000;
+    --footer-bg: #f8f9fa;
+    --footer-text: #000000;
+    --card-bg: #ffffff;
+    --card-text: #000000;
+    --timeline-card-bg: #f9f9f9;
+    --timeline-card-text: #000000;
+    --btn-primary-bg: #102D69;
+    --btn-primary-hover-bg: #0e2368;
+    --btn-primary-text: #ffffff;
+}
+
+body.dark {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --navbar-bg: #343a40;
+    --navbar-text: #ffffff;
+    --footer-bg: #343a40;
+    --footer-text: #ffffff;
+    --card-bg: #1e1e1e;
+    --card-text: #ffffff;
+    --timeline-card-bg: #2c2c2c;
+    --timeline-card-text: #ffffff;
+    --btn-primary-bg: #1a73e8;
+    --btn-primary-hover-bg: #1669c1;
+    --btn-primary-text: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 56px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Навбар */
+.navbar {
+  background-color: var(--navbar-bg) !important;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: var(--navbar-text) !important;
+}
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
+/* Подвал */
+.footer {
+  background-color: var(--footer-bg) !important;
+  color: var(--footer-text) !important;
+}
+
+/* Стили карточек */
+.card {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Timeline Cards */
+.timeline-card {
+  background-color: var(--timeline-card-bg);
+  color: var(--timeline-card-text);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.timeline-card .card-body {
+  padding: 0;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: var(--btn-primary-bg);
+    border-color: var(--btn-primary-bg);
+    color: var(--btn-primary-text);
+}
+.btn-primary:hover {
+    background-color: var(--btn-primary-hover-bg);
+    border-color: var(--btn-primary-hover-bg);
+}
+
+/* Обо мне */
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Таймлайн */
+.year-display {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.timeline-year h3 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.timeline-items {
+  margin-top: 10px;
+}
+.timeline-item {
+  margin-bottom: 15px;
+}
+.event-date-location {
+  margin-top: 10px;
+}
+.event-date-location .date {
+  font-size: 1rem;
+  color: grey;
+}
+
+/* Для секций */
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Кнопка наверх */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #102D69;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top-btn:hover {
+    opacity: 0.8;
+}
