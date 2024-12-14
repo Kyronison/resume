@@ -43,4 +43,5 @@ def render_server_error(error):
     return render_template("500.html"), 500
 
 if __name__ == '__main__':
-    app.run(port=5002, debug=True)
+    port = int(os.environ.get('PORT', 5000))  # Получаем порт из переменной окружения или используем 5000 по умолчанию
+    app.run(host='0.0.0.0', port=port, debug=True)
